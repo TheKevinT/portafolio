@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+//librerias
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
+//importar rutas
+import { BrowserRouter } from 'react-router-dom';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+  <BrowserRouter>
+      <App />
+  </BrowserRouter>,
+ 
   document.getElementById('root')
 );
 

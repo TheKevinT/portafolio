@@ -1,24 +1,45 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+//importar
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
+import Main from './components/Routes/main';
+//importar Link para Router
+import { Link } from 'react-router-dom';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div style={{height: '300px', position: 'relative'}}>
+        <Layout fixedHeader>
+            <Header title={<span><strong>Mi portafolio</strong></span>}>
+                <Navigation>
+                    <Link to="/about">SOBRE MI</Link>
+                    <Link to="/resume">CURRÍCULUM</Link>
+                    <Link to="/certificate">CERTIFICACIONES</Link>
+                    <Link to="/projects">PROYECTOS</Link>
+                    <Link to="/contact">CONTACTO</Link>
+                </Navigation>
+            </Header>
+            <Drawer title="Acerca de ">
+                <Navigation>
+                    <Link to="/about">SOBRE MI</Link>
+                    <Link to="/resume">CURRÍCULUM</Link>
+                    <Link to="/certificate">CERTIFICACIONES</Link>
+                    <Link to="/projects">PROYECTOS</Link>
+                    <Link to="/contact">CONTACTO</Link>
+                </Navigation>
+            </Drawer>
+            <Content>
+              <div className="page-content"/>
+                <Main/>
+
+            </Content>
+        </Layout>
+       </div>
+
     </div>
   );
 }
