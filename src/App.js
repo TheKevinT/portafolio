@@ -12,18 +12,18 @@ function App() {
   return (
     <div className="App">
 
-      <div style={{height: '300px', position: 'relative'}}>
+      <div className="demo-big-content">
         <Layout fixedHeader>
-            <Header title={<span><strong>Mi portafolio</strong></span>}>
+            <Header className="header-color" title={<span><strong>MI PORTAFOLIO</strong></span>} scroll>
                 <Navigation>
-                    <Link to="/about">SOBRE MI</Link>
+                    <Link to="/about">ACERCA DE MI</Link>
                     <Link to="/resume">CURRÍCULUM</Link>
                     <Link to="/certificate">CERTIFICACIONES</Link>
                     <Link to="/projects">PROYECTOS</Link>
                     <Link to="/contact">CONTACTO</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Acerca de ">
+            <Drawer  title="Dirigirse a ">
                 <Navigation>
                     <Link to="/about">SOBRE MI</Link>
                     <Link to="/resume">CURRÍCULUM</Link>
@@ -33,7 +33,7 @@ function App() {
                 </Navigation>
             </Drawer>
             <Content>
-              <div className="page-content"/>
+             
                 <Main/>
 
             </Content>
