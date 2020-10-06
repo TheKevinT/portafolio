@@ -1,0 +1,21 @@
+
+[
+
+
+        {
+            "title": "LISTA DE TAREAS",
+            "description":"loremp impsup",
+            "enlace":"https://github.com/TheKevinT/listarTareas-React",
+            "img": "https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg",
+            "demo": "https://listar-task.netlify.app"
+        },
+        {
+            "title": "TODO LIST",
+            "description":"loremp impsup",
+            "enlace":"https://github.com/TheKevinT/React-TodoList",
+            "img": "https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg",
+            "demo": "https://listartareas.netlify.app"
+        }
+        
+    
+]
