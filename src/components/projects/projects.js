@@ -5,6 +5,8 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, 
 //importar JSON
 
 import DataReact from '../../assets/Data/dataReact.json'
+import DataAngular from '../../assets/Data/dataAngular.json'
+import DataVue from '../../assets/Data/dataVue.json'
 
 class Projects extends Component{
 
@@ -30,7 +32,7 @@ class Projects extends Component{
                                     <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}}>
                                              {DataReact.title}
                                     </CardTitle> 
-                                    <CardText>
+                                    <CardText style={{textAlign: 'justify'}}>
                                         {DataReact.description}
                                     </CardText>
                                     <CardActions border>
@@ -61,19 +63,84 @@ class Projects extends Component{
     
         }else if(this.state.activeTab === 1){
             return (
-                <div>
-                    <h1>Angular.....</h1>
-    
+
+                <Fragment>
+                <div  className="projects-grid">
+                {
+                                DataAngular.map((DataAngular, i) =>{
+
+                                    return (
+                                        
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
+                           
+                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://tecnoinfluencia.com/images/skill/angular.png) center / cover'}}>
+                                         {DataAngular.title}
+                                </CardTitle> 
+                                <CardText style={{textAlign: 'justify'}}>
+                                    {DataAngular.description}
+                                </CardText>
+                                <CardActions border>
+                                    <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataAngular.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                
+                                    <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataAngular.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                </CardActions>
+                        
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+
+                                    )
+                                }
+                                    
+                                )
+            }
+                     
+                        
                 </div>
+
+            </Fragment>
             )
     
 
         }else if(this.state.activeTab === 2){
             return (
-                <div>
-                    <h1>Vue JS.....</h1>
-    
+                <Fragment>
+                <div  className="projects-grid">
+                {
+                                DataVue.map((DataVue, i) =>{
+
+                                    return (
+                                        
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
+                           
+                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://www.log2e.com/wp-content/uploads/2019/01/vuejs_tutorial.png) center / cover'}}>
+                                         {DataVue.title}
+                                </CardTitle> 
+                                <CardText style={{textAlign: 'justify'}}>
+                                    {DataVue.description}
+                                </CardText>
+                                <CardActions border>
+                                    <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataVue.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                
+                                    <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataVue.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                </CardActions>
+                        
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+
+                                    )
+                                }
+                                    
+                                )
+            }
+                     
+                        
                 </div>
+
+            </Fragment>
             )
 
         }else if(this.state.activeTab === 3){

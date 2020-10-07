@@ -1,0 +1,17 @@
+
+[
+    {
+        "title": "CLASS-CHAT",
+        "description":"Proyecto realizado para la universidad, donde un estudiante puede comunicarse con un profesor mediante un chat.Cuenta con registro, login, roles y firebase como backend",
+        "enlace":"https://github.com/TheKevinT/proyectoSW-II/tree/kevin",
+        "demo": "https://classchat-30689.web.app"
+    },
+    {
+        "title": "Heladeria",
+        "description":"Proyecto realizado para la universidad, el cual consiste en un sistema para la venta de helados. Cuenta con login, registro, roles y firebase 'real time' como backend",
+        "enlace":"https://github.com/MegalLink/Proyecto-Aplicaciones-Web-EPN/tree/kevin",
+        "demo": ""
+    }
+    
+
+]

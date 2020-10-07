@@ -14,7 +14,7 @@ function App() {
 
       <div className="demo-big-content">
         <Layout fixedHeader>
-            <Header className="header-color" title={<span><strong>MI PORTAFOLIO</strong></span>} scroll>
+            <Header className="header-color" title={<span> <Link className="enlaceCodigo" to="/"><strong>MI PORTAFOLIO</strong></Link></span>} scroll>
                 <Navigation>
                     <Link to="/about">ACERCA DE MI</Link>
                     <Link to="/resume">CURRÍCULUM</Link>
