@@ -7,6 +7,7 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, 
 import DataReact from '../../assets/Data/dataReact.json'
 import DataAngular from '../../assets/Data/dataAngular.json'
 import DataVue from '../../assets/Data/dataVue.json'
+import DataHtmlCss from '../../assets/Data/dataHtmlCss.json'
 
 class Projects extends Component{
 
@@ -29,7 +30,7 @@ class Projects extends Component{
                                             
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
                                
-                                    <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}}>
+                                    <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/react_img.png) center / cover'}}>
                                              {DataReact.title}
                                     </CardTitle> 
                                     <CardText style={{textAlign: 'justify'}}>
@@ -73,7 +74,7 @@ class Projects extends Component{
                                         
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
                            
-                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://tecnoinfluencia.com/images/skill/angular.png) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/angular.png) center / cover'}}>
                                          {DataAngular.title}
                                 </CardTitle> 
                                 <CardText style={{textAlign: 'justify'}}>
@@ -114,7 +115,7 @@ class Projects extends Component{
                                         
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
                            
-                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(https://www.log2e.com/wp-content/uploads/2019/01/vuejs_tutorial.png) center / cover'}}>
+                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/vuejs_img.png) center / cover'}}>
                                          {DataVue.title}
                                 </CardTitle> 
                                 <CardText style={{textAlign: 'justify'}}>
@@ -145,10 +146,42 @@ class Projects extends Component{
 
         }else if(this.state.activeTab === 3){
             return (
-                <div>
-                    <h1>HTML/CSS.....</h1>
-    
+                <Fragment>
+                <div  className="projects-grid">
+                {
+                                DataHtmlCss.map((DataHtmlCss, i) =>{
+
+                                    return (
+                                        
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
+                           
+                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/htmlCss_img.png) center / cover'}}>
+                                         {DataHtmlCss.title}
+                                </CardTitle> 
+                                <CardText style={{textAlign: 'justify'}}>
+                                    {DataHtmlCss.description}
+                                </CardText>
+                                <CardActions border>
+                                    <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataHtmlCss.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                
+                                    <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataHtmlCss.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                </CardActions>
+                        
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+
+                                    )
+                                }
+                                    
+                                )
+            }
+                     
+                        
                 </div>
+
+            </Fragment>
             )
 
 
@@ -165,7 +198,7 @@ class Projects extends Component{
                       <Tab>React</Tab>
                       <Tab>Angular</Tab>
                       <Tab>VueJS</Tab>
-                      <Tab>HTML/CSS</Tab>
+                      <Tab>HTML/CSS/JS</Tab>
                   </Tabs>
 
        

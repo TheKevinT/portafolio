@@ -1,0 +1,25 @@
+[
+    {
+        "descripcion":"Soy estudiante de la Escuela Politécnica Nacional, programador de 24 años, pertenezco a la carrera de Ingeniería en Sistemas Informáticos y de Computación, con experiencia en desarrollo web y software. He participado en varios proyectos para diferentes secciones de la carrera, me considero un líder nato, con muchas ganas de seguir aprendiendo y una rápida adaptación al ambiente de trabajo. Mis principales habilidades son el desarrollo de aplicaciones web, desarrollo frontend, desarrollo backend y desarrollo de software aplicando metodologías ágiles como Scrum."
+    },
+   
+    { 
+        "anio": "2009 - 2013",
+        "nombre":"Torrevilano",
+        "diploma":"ESO",
+        "lugar":"Madrid, España"
+    },
+    {
+        "anio": "2013 - 2015",
+        "nombre":"U.E.P Pául Dirac",
+        "diploma":"Bachillerato B.G.U",
+        "lugar":"Quito, Ecuador"
+    },
+    {
+        "anio": "2016 - 2021",
+        "nombre":"Universidad Escuela Politécnica Nacional",
+        "diploma":"Estudiante de Ingeniería en Sistemas Informáticos y de Computación",
+        "lugar":"Quito, Ecuador"
+    }
+
+]

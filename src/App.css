@@ -27,7 +27,7 @@ height: 100%;
 .enlaceCodigo {
     text-decoration:none;
     color: white;
-    
+
 }
 
 /*CONTACT*/
@@ -52,7 +52,6 @@ height: 100%;
     height: 80%;
     background: white;
     color: black;
-    border: 2px solid red;
     margin-bottom: 20px;
 }
 
@@ -80,6 +79,36 @@ height: 100%;
 .tittle-certificate{
     font-family: 'Anton', sans-serif;
     text-align: center;
+}
+
+/*CURRICULUM*/
+.resume-right-col{
+    background: #27221f;
+    color: white;
+}
+.curri-img{
+
+    width: 300px;
+     height: 300px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     margin-top: 20px;
+
+}
+
+.red-social i{
+    color: #2C5364;
+    font-size: 3em;
+    padding: 8px;
+}
+.icon{
+    margin-right: 20px;
+    font-size: 2em;
+}
+.icon-cur{
+    margin-right: 20px;
+    font-size: 1em;
 }
 
 

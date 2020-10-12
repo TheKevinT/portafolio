@@ -1,0 +1,31 @@
+[
+    {
+        "tecnico":"TypesScript/Angular",
+        "progress":90
+    },
+    {
+        "tecnico":"JavaScript/React",
+        "progress":80
+    },
+    {
+        "tecnico":"Node.js/Express.js",
+        "progress":50
+    },
+    {
+        "tecnico":"Java/Netbeans",
+        "progress":80
+    },
+    {
+        "tecnico":"C#/Visual Studio Microsoft",
+        "progress":70
+    },
+    {
+        "tecnico":"MySQL/SQL",
+        "progress":70
+    },
+    {
+        "tecnico":"Diseño de Base de datos",
+        "progress":60
+    }
+
+]
