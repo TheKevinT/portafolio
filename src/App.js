@@ -14,7 +14,7 @@ function App() {
 
       <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/"><strong>MI PORTAFOLIO</strong></Link>} scroll>
+            <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/"><strong>KEVIN</strong></Link>} scroll>
                 <Navigation>
                     <Link to="/about">ACERCA DE MI</Link>
                     <Link to="/resume">CURRÍCULUM</Link>
