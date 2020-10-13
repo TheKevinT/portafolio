@@ -22,13 +22,14 @@ class Projects extends Component{
         if(this.state.activeTab === 0){
             return (
                 <Fragment>
-                    <div  className="projects-grid">
+                    <div  className="row">
                     {
                                     DataReact.map((DataReact, i) =>{
 
-                                        return (
+                        return (
+                            <div className="col-md-4" style={{marginBottom:'50px'}} key={i}>
                                             
-                            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
+                            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} >
                                
                                     <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/react_img.png) center / cover'}}>
                                              {DataReact.title}
@@ -46,11 +47,12 @@ class Projects extends Component{
                                     <IconButton name="share" />
                                 </CardMenu>
                             </Card>
+                            </div>
 
-                                        )
-                                    }
+                        )
+                    }
                                         
-                                    )
+                     )
                 }
                          
                             
@@ -66,124 +68,129 @@ class Projects extends Component{
             return (
 
                 <Fragment>
-                <div  className="projects-grid">
+                    <div className="row">
+              
                 {
-                                DataAngular.map((DataAngular, i) =>{
+                     DataAngular.map((DataAngular, i) =>{
 
-                                    return (
-                                        
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
-                           
-                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/angular.png) center / cover'}}>
-                                         {DataAngular.title}
-                                </CardTitle> 
-                                <CardText style={{textAlign: 'justify'}}>
-                                    {DataAngular.description}
-                                </CardText>
-                                <CardActions border>
-                                    <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataAngular.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
-                                
-                                    <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataAngular.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
-                                </CardActions>
-                        
-                            <CardMenu style={{color: '#fff'}}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
+                            return (
+                                 <div className="col-md-4" style={{marginBottom:'50px'}} key={i}>
+                                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} >
+                                            
+                                    <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/angular.png) center / cover'}}>
+                                                            {DataAngular.title}
+                                        </CardTitle> 
+                                            <CardText style={{textAlign: 'justify'}}>
+                                                        {DataAngular.description}
+                                             </CardText>
+                                             <CardActions border>
+                                                <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataAngular.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                                    
+                                                <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataAngular.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                                    </CardActions>
+                                            
+                                            <CardMenu style={{color: '#fff'}}>
+                                                    <IconButton name="share" />
+                                            </CardMenu>
+                                    </Card>
+                                </div>
 
-                                    )
-                                }
-                                    
                                 )
-            }
+                         }
+                                    
+                    )
+                }
                      
-                        
                 </div>
-
-            </Fragment>
+              </Fragment>
             )
     
 
         }else if(this.state.activeTab === 2){
             return (
                 <Fragment>
-                <div  className="projects-grid">
-                {
-                                DataVue.map((DataVue, i) =>{
+                    <div className="row">
 
-                                    return (
+                       {
+                             DataVue.map((DataVue, i) =>{
+
+                                return (
                                         
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
-                           
-                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/vuejs_img.png) center / cover'}}>
-                                         {DataVue.title}
-                                </CardTitle> 
-                                <CardText style={{textAlign: 'justify'}}>
-                                    {DataVue.description}
-                                </CardText>
-                                <CardActions border>
-                                    <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataVue.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
-                                
-                                    <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataVue.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
-                                </CardActions>
-                        
-                            <CardMenu style={{color: '#fff'}}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
-
-                                    )
-                                }
+                                    <div className="col-md-4" style={{marginBottom:'50px'}} key={i}>
+                                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} >
+                                                
+                                            <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/vuejs_img.png) center / cover'}}>
+                                                                {DataVue.title}
+                                            </CardTitle> 
+                                            <CardText style={{textAlign: 'justify'}}>
+                                                            {DataVue.description}
+                                            </CardText>
+                                            <CardActions border>
+                                                <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataVue.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                                        
+                                                <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataVue.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                            </CardActions>
+                                                
+                                            <CardMenu style={{color: '#fff'}}>
+                                                <IconButton name="share" />
+                                            </CardMenu>
+       
+                                        </Card>
+                                     </div>
                                     
                                 )
-            }
+                            }
+                                    
+                                )
+                        }
                      
-                        
                 </div>
-
             </Fragment>
             )
 
         }else if(this.state.activeTab === 3){
+
+           
             return (
                 <Fragment>
-                <div  className="projects-grid">
-                    {
-                                DataHtmlCss.map((DataHtmlCss, i) =>{
+                    <div className="row">
+               
+                        {
+                            DataHtmlCss.map((DataHtmlCss, i) =>{
 
-                                    return (
-                                       
-                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
-                           
-                                <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/htmlCss_img.png) center / cover'}}>
-                                         {DataHtmlCss.title}
-                                </CardTitle> 
-                                <CardText style={{textAlign: 'justify'}}>
-                                    {DataHtmlCss.description}
-                                </CardText>
-                                <CardActions border>
-                                    <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataHtmlCss.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
-                                
-                                    <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataHtmlCss.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
-                                </CardActions>
-                        
-                            <CardMenu style={{color: '#fff'}}>
-                                <IconButton name="share" />
-                            </CardMenu>
-                        </Card>
+                                return (
+                                    <div className="col-md-4" style={{marginBottom:'50px'}} key={i}>
+                                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} >
+                                                
+                                            <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/htmlCss_img.png) center / cover'}}>
+                                                                {DataHtmlCss.title}
+                                            </CardTitle> 
+                                            <CardText style={{textAlign: 'justify'}}>
+                                                            {DataHtmlCss.description}
+                                            </CardText>
+                                            <CardActions border>
+                                                <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataHtmlCss.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                                        
+                                                <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataHtmlCss.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                            </CardActions>
+                                                
+                                            <CardMenu style={{color: '#fff'}}>
+                                                <IconButton name="share" />
+                                            </CardMenu>
+                                        </Card>
+                                    </div>
              
                                     )
-                                }
+                               }
                                     
-                                )
-                    }
-                     
-                        
+                            )
+                        }
+                       
                 </div>
-            
+              
             </Fragment>
             )
-
+        
 
         }
     }

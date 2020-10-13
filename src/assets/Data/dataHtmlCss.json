@@ -28,6 +28,29 @@
         "description":"CRUD para la gestión de usuarios realizado con Bootstrap, firebase para el backend y JavaScript",
         "enlace":"https://github.com/TheKevinT/CRUD",
         "demo": "https://crud-js-firebase.netlify.app"
-    }
-
+    },
+    {
+         "title": "LOGIN-REGISTRO",
+         "description":"Login para ingresar y para registrarse sin conexión a una base de datos solo maquetación",
+         "enlace":"https://github.com/TheKevinT/Login-Register",
+         "demo": "https://login-crearcuenta.netlify.app"
+     },
+     {
+          "title": "BLOG-VIAJES",
+          "description":"Maquetación de una página web para una agencia de viajes",
+          "enlace":"https://github.com/TheKevinT/web-layout-viajes",
+          "demo": "https://blog-viajes01.netlify.app"
+      },
+      {
+           "title": "WEB-BIENES-RAICES",
+           "description":"Maquetación de una pagina web para una empresa de bienes raices",
+           "enlace":"https://github.com/TheKevinT/website-BienesRaices",
+           "demo": "https://web-bienes-raices01.netlify.app"
+       },
+       {
+        "title": "JUEGO-SNAKE",
+        "description":"Es el famoso juego de la serpiente realizado como pasantiempo para prácticar",
+        "enlace":"https://github.com/TheKevinT/Juego-Snake",
+        "demo": "https://juego-snake.netlify.app"
+        }
 ]

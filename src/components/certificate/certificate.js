@@ -9,7 +9,7 @@ class Certificate extends Component{
         return(
             <Fragment>
                 <div className="col-md-12">
-                    <h2 className="tittle-certificate">Cursos y Certificaciones</h2>
+                    <h2 className="tittle-certificate">CURSOS Y CERTIFICACIONES</h2>
 
                     {
                         Certi.map((certi, i)=>{
