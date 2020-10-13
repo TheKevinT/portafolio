@@ -148,11 +148,11 @@ class Projects extends Component{
             return (
                 <Fragment>
                 <div  className="projects-grid">
-                {
+                    {
                                 DataHtmlCss.map((DataHtmlCss, i) =>{
 
                                     return (
-                                        
+                                       
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} key={i}>
                            
                                 <CardTitle style={{color: '#fff', height: '176px',  background: 'url(img_project/htmlCss_img.png) center / cover'}}>
@@ -171,16 +171,16 @@ class Projects extends Component{
                                 <IconButton name="share" />
                             </CardMenu>
                         </Card>
-
+             
                                     )
                                 }
                                     
                                 )
-            }
+                    }
                      
                         
                 </div>
-
+            
             </Fragment>
             )
 
@@ -204,9 +204,8 @@ class Projects extends Component{
        
                     <Grid>
                         <Cell col={12} style={{height:'100%'}}>
-                        <div className="content">{this.toggleCategories()}</div>
+                            <div className="content">{this.toggleCategories()}</div>
                         </Cell>
-                      
                     </Grid>
 
               </div>
