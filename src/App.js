@@ -14,7 +14,7 @@ function App() {
 
       <div className="demo-big-content">
         <Layout>
-            <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/"><strong>KEVIN</strong></Link>} scroll>
+            <Header className="header-color" title={<Link style={{textDecoration:'none', color:'white'}} to="/"><strong>KEVIN.T</strong></Link>} scroll>
                 <Navigation>
                     <Link to="/about">ACERCA DE MI</Link>
                     <Link to="/resume">CURRÍCULUM</Link>
@@ -23,7 +23,7 @@ function App() {
                     <Link to="/contact">CONTACTO</Link>
                 </Navigation>
             </Header>
-            <Drawer  title={<Link style={{textDecoration:'none', color:'black'}} to="/"><strong>MI PORTAFOLIO</strong></Link>}>
+            <Drawer  title={<Link style={{textDecoration:'none', color:'black'}} to="/"><strong>KEVIN.T</strong></Link>}>
                 <Navigation>
                     <Link to="/about">SOBRE MI</Link>
                     <Link to="/resume">CURRÍCULUM</Link>
