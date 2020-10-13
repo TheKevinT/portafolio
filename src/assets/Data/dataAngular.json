@@ -11,6 +11,12 @@
         "description":"Proyecto realizado para la universidad, el cual consiste en un sistema para la venta de helados. Cuenta con login, registro, roles y firebase 'real time' como backend",
         "enlace":"https://github.com/MegalLink/Proyecto-Aplicaciones-Web-EPN/tree/kevin",
         "demo": ""
+    },
+    {
+        "title": "AGENDAR CITAS MEDICAS",
+        "description":"Proyecto realizado para la universidad, el cual consiste en un sistema para gestionar las citas medicas. Cuenta con login, registro, roles y utiliza como backend firebase",
+        "enlace":"https://github.com/TheKevinT/Proyecto-AgendarCitas",
+        "demo": "https://agendarcitas-78aa2.firebaseapp.com"
     }
 
 ]
