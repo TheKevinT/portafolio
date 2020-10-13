@@ -1,13 +1,33 @@
 [
-
-
     {
         "title": "CHAT-JS",
         "description":"Chat realizado con autenticación de google Auth y conexión a firebase",
         "enlace":"https://github.com/TheKevinT/Chat-js/tree/master",
         "demo": ""
+    },
+     {
+        "title": "WEB-CONSTRUCTORA",
+        "description":"Diseño de una página web para una constructora utilizando Bootstrap",
+        "enlace":"https://github.com/TheKevinT/Website-Finca-raiz",
+        "demo": "https://constructora-web.netlify.app"
+    },
+     {
+        "title": "ENVIAR MAIL",
+        "description":"Proyecto que permite simular un envio de un correo, validando los campos y utilizando spinner",
+        "enlace":"https://github.com/TheKevinT/EnviarMail",
+        "demo": "https://enviarmail.netlify.app"
+    },
+   {
+        "title": "AGREGAR CITAS",
+        "description":"Proyecto que simula la agendacion de citas medicas para una mascota utilizando localStorage",
+        "enlace":"https://github.com/TheKevinT/AgregarCitas",
+        "demo": "https://agendarcitas-localstorage.netlify.app"
+    },
+   {
+        "title": "CRUD-JS",
+        "description":"CRUD para la gestión de usuarios realizado con Bootstrap, firebase para el backend y JavaScript",
+        "enlace":"https://github.com/TheKevinT/CRUD",
+        "demo": "https://crud-js-firebase.netlify.app"
     }
-  
-    
 
 ]
