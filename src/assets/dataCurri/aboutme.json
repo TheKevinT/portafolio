@@ -1,0 +1,74 @@
+[
+    {
+        "lenguaje":"JAVASCRIPT",
+        "descripcion": "JavaScript se ha convertido en una de mis habilidades más fundamentales para el desarrollo de aplicaciones web, ya que este lenguje fue creado para el desarrollo web, tanto en el cliente como en el servidor."
+
+    },
+    {
+        "lenguaje":"TYPESCRIPT",
+        "descripcion": "TypeScript se ha convertido en una de mis habilidades más fundamentales para el desarrollo de aplicaciones web, debido a que he construido varias páginas web utilizando Frameworks"
+
+    },
+    {
+        "lenguaje":"JAVA",
+        "descripcion": "Java es una de mis habilidades para desarrollar software. He desarrollado  varias aplicaciones y proyectos para la universidad utilizando este lenguaje"
+
+    }, 
+    {
+        "lenguaje":"ANGULAR",
+        "descripcion": "El Framework de angular es uno de mis favortios para desarrollar una página web debido a que me ha demostrado una solides en el código, siempre formando una estructura de carpetas y archivos para obtener una mejor comprensión del código"
+
+    }, 
+    {
+        "lenguaje":"REACT",
+        "descripcion": "Al momento de desarrollar una página web tambiene poseo la capacidad de manejar el Framework de React el cual me ha demostrado que posee una solides al momento de desarrollar un proyecto y una fácil lectura de código"
+
+    }, 
+    {
+        "lenguaje":"C#",
+        "descripcion": "Poseo un concocimiento sobre el lenguaje de C# para el desarrollo de aplicaciones de escritorio y de software, asi mismo he elaborado varios proyectos utilizando dicho lenguje a lo largo de la carrera"
+
+    },
+    {
+        "lenguaje":"HTML, CSS ",
+        "descripcion": "Al momento de diseñar páginas web ocupo el lenguaj de etiquetado como lo es HTML y para agregar estilos CSS , estas son las herramientas que me ayudan a mejorar la parte visual de mis proyectos."
+
+    }, 
+    {
+        "lenguaje":"BOOTSTRAP ",
+        "descripcion": "Tengo un amplio conocimiento sobre el Framework de estilos como los es Boostrap para agregar mayor estilo a mis dieños web, he trabajado en la mayoria de mis proyectos utilizado esta herramienta."
+
+    },
+    {
+        "lenguaje":"ANDROID, KOTLIN & SWIFT" ,
+        "descripcion": "Para el desarrollo de aplicaciones móviles manejo las herramientas de Andorid y su lenguaje Kotlin esto para un ambiente Android ya que de igual manera si se necesita trabajar en un ambiente IOS puedo trabjar con su lenguaje Swift"
+
+    }, 
+    {
+        "lenguaje":"SQL SERVER",
+        "descripcion": "SQL es una herramienta de bases de datos que me ayuda a gestionar y guardar los datos obtenidos del cliente, tengo conocimientos avanzados en el tema de gestores de bases de datos, especialmente en la versión 2012."
+
+    }, 
+    {
+        "lenguaje":"MYSQL",
+        "descripcion": "MySQL ha sido una de mis aliadas al momento de trabajar en el backend de mis proyectos debido a su fácil uso y conectividad, ya que permite guardar una cantidad masiva de datos por parte del cliente."
+
+    },
+    {
+        "lenguaje":"FIREBASE",
+        "descripcion": "Al momento de trabajar con aplicaciones web y aplicaciones móviles utilizo la poderosa herramienta de Firebase  que ofrece Google, debido a su rápida implementación y fácil manejo de la misma. He realizado varios proyectos utilizados esta herramienta acompañada de un framework"
+
+    },
+
+    {
+        "lenguaje":"GITHUB",
+        "descripcion": "Git es una de mis herramientas preferidas para controlar las versiones de mis proyectos. Poseo amplios conocimientos en GitHub y todo el ecosistema que lo rodea."
+
+    },
+    {
+        "lenguaje":"NODE.JS & EXPRESS.JS",
+        "descripcion": "Node.js y Express.js se ha convertido en grandes aliados al momento de construir servidores web y RESTful API's."
+
+    }
+
+]
