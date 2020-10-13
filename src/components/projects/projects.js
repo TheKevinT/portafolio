@@ -38,9 +38,9 @@ class Projects extends Component{
                                         {DataReact.description}
                                     </CardText>
                                     <CardActions border>
-                                        <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataReact.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                        <Button style={{marginLeft:'20px'}} raised colored> <a style={{textDecoration:'none', color: 'white'}}  href={DataReact.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
                                     
-                                        <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataReact.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                        <Button style={{marginLeft:'80px'}} raised colored><a style={{textDecoration:'none', color: 'white'}} href={DataReact.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
                                     </CardActions>
                             
                                 <CardMenu style={{color: '#fff'}}>
@@ -84,9 +84,9 @@ class Projects extends Component{
                                                         {DataAngular.description}
                                              </CardText>
                                              <CardActions border>
-                                                <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataAngular.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                                <Button style={{marginLeft:'20px'}} raised colored> <a style={{textDecoration:'none', color: 'white'}} href={DataAngular.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
                                                     
-                                                <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataAngular.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                                <Button style={{marginLeft:'80px'}} raised colored><a style={{textDecoration:'none', color: 'white'}} href={DataAngular.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
                                                     </CardActions>
                                             
                                             <CardMenu style={{color: '#fff'}}>
@@ -126,9 +126,9 @@ class Projects extends Component{
                                                             {DataVue.description}
                                             </CardText>
                                             <CardActions border>
-                                                <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataVue.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                                <Button style={{marginLeft:'20px'}} raised colored> <a style={{textDecoration:'none', color: 'white'}}  href={DataVue.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
                                                         
-                                                <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataVue.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                                <Button style={{marginLeft:'80px'}} raised colored><a style={{textDecoration:'none', color: 'white'}} href={DataVue.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
                                             </CardActions>
                                                 
                                             <CardMenu style={{color: '#fff'}}>
@@ -169,9 +169,9 @@ class Projects extends Component{
                                                             {DataHtmlCss.description}
                                             </CardText>
                                             <CardActions border>
-                                                <Button style={{marginLeft:'20px'}} raised colored> <a className="enlaceCodigo"  href={DataHtmlCss.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
+                                                <Button style={{marginLeft:'20px'}} raised colored> <a style={{textDecoration:'none', color: 'white'}}  href={DataHtmlCss.enlace} rel="noopener noreferrer" target="_blank">GITHUB</a></Button>
                                                         
-                                                <Button style={{marginLeft:'80px'}} raised colored><a className="enlaceCodigo" href={DataHtmlCss.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
+                                                <Button style={{marginLeft:'80px'}} raised colored><a style={{textDecoration:'none', color: 'white'}} href={DataHtmlCss.demo} rel="noopener noreferrer" target="_blank">LIVE DEMO</a></Button>
                                             </CardActions>
                                                 
                                             <CardMenu style={{color: '#fff'}}>
