@@ -13,6 +13,12 @@
             "description":"CRUD de tareas con Bootstrap y fundamentos básicos de React",
             "enlace":"https://github.com/TheKevinT/React-TodoList",
             "demo": "https://listartareas.netlify.app"
+        },
+        {
+            "title": "SEARCH MOVIES",
+            "description":"Un proyecto para buscar peliculas utilizando la API 'OMDb API'",
+            "enlace":"https://github.com/TheKevinT/search-movies-react",
+            "demo": ""
         }
         
     
